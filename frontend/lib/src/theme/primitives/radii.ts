@@ -20,6 +20,7 @@ export const radii = {
   default: "0.5rem",
   xl: "0.75rem",
   xxl: "1rem",
+  xxxl: "1.25rem",
   // Ensures that the element is fully rounded:
   full: "9999px",
 }

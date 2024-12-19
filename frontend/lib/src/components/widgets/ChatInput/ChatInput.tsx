@@ -184,6 +184,7 @@ function ChatInput({
                 outline: "none",
                 backgroundColor: theme.colors.transparent,
                 // Baseweb requires long-hand props, short-hand leads to weird bugs & warnings.
+                borderRadius: theme.radii.xxxl,
                 borderLeftWidth: theme.sizes.borderWidth,
                 borderRightWidth: theme.sizes.borderWidth,
                 borderTopWidth: theme.sizes.borderWidth,
@@ -213,7 +214,7 @@ function ChatInput({
                   : "auto",
                 maxHeight: maxHeight ? `${maxHeight}px` : "none",
                 // Baseweb requires long-hand props, short-hand leads to weird bugs & warnings.
-                paddingLeft: theme.spacing.sm,
+                paddingLeft: theme.spacing.lg,
                 paddingBottom: theme.spacing.sm,
                 paddingTop: theme.spacing.sm,
                 // Calculate the right padding to account for the send icon (iconSizes.xl + 2 * spacing.sm)
