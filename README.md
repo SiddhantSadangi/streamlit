@@ -112,15 +112,6 @@ There's so much you can build with Streamlit:
 
 **Check out [our gallery!](https://streamlit.io/gallery)** 🎈
 
-## Contribute 
-🎉 Thanks for your interest in helping improve Streamlit! 🎉
-
-Before contributing, please read our guidelines here: https://github.com/streamlit/streamlit/wiki/Contributing
-
-As with most projects, prior to starting to code on a bug fix or feature request, please post in the respective Github issue saying you want to volunteer, and then wait for a positive response. And if there is no issue for it yet, create it first.
-
-This helps make sure (1) two people aren't working on the same thing, (2) this is something Streamlit's maintainers believe should be implemented/fixed, (3) any API, UI, or deeper architectural changes that need to be implemented have been fully thought through by the community together with Streamlit's maintainers.
-
 ## Community Cloud
 
 Deploy, manage and share your apps for free using our [Community Cloud](https://streamlit.io/cloud)! Sign-up [here](https://share.streamlit.io/signup). <br><br>
@@ -136,6 +127,15 @@ Deploy, manage and share your apps for free using our [Community Cloud](https://
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](URL_TO_YOUR_APP)
 ```
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/streamlit/roadmap)
+
+## Contribute 
+🎉 Thanks for your interest in helping improve Streamlit! 🎉
+
+Before contributing, please read our guidelines here: https://github.com/streamlit/streamlit/wiki/Contributing
+
+As with most projects, prior to starting to code on a bug fix or feature request, please post in the respective Github issue saying you want to volunteer and then wait for a positive response. Ff there is no issue for it yet, create one first.
+
+This helps make sure (1) two people aren't working on the same thing, (2) this is something Streamlit's maintainers believe should be implemented/fixed, (3) any API, UI, or deeper architectural changes that need to be implemented have been fully thought through by the community together with Streamlit's maintainers.
 
 ## License
 
