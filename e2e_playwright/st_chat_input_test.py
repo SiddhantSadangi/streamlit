@@ -99,6 +99,16 @@ def test_app_with_bottom_chat_input(app: Page, assert_snapshot: ImageCompareFunc
     assert_snapshot(app.get_by_test_id("stBottom"), name="st_chat_input-app_bottom")
 
 
+def test_submit_hover_state_with_input_value(
+    app: Page, assert_snapshot: ImageCompareFunction
+):
+    """Test the submit button's hover state when input value is present."""
+    chat_input = app.get_by_test_id("stChatInput").nth(3)
+    submit_button = chat_input.get_by_test_id("stChatInputSubmitButton")
+    submit_button.hover()
+    assert_snapshot(chat_input, name="st_chat_input-submit_hover")
+
+
 def test_enter_submits_clears_input(app: Page):
     """Test that pressing Enter submits and clears the input."""
     markdown_output = app.get_by_test_id("stMarkdown").nth(3)
