@@ -80,8 +80,7 @@ export const StyledSendIconButton = styled.button<StyledSendIconButtonProps>(
           : theme.colors.gray90,
       },
       "&:hover": {
-        backgroundColor: theme.colors.primary,
-        color: theme.colors.white,
+        color: theme.colors.primary,
       },
       "&:disabled, &:disabled:hover, &:disabled:active": {
         backgroundColor: theme.colors.transparent,
